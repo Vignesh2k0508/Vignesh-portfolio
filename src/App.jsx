@@ -3,25 +3,24 @@ import React from 'react'
 import Navbar from './Components/Home/Navbar';
 import Home from './Components/Home/Home';
 import "./global.css"
-import About from './Components/About';
+import About from './Components/About/About';
+import Skills from './Components/Skills/Skills';
+import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
 
 
 const App = () => {
+
+
 
   return (
     <>
       <div id="container">
         <Home/>
         <About/>
-        <div id="skills">
-          <h1>skills</h1>
-        </div>
-        <div id="projects">
-          <h1>projects</h1>
-        </div>
-        <div id="contact">
-          <h1>contact</h1>
-        </div>
+        <Skills/>
+        <Projects/>
+        <Contact/>
       </div>
       
 
