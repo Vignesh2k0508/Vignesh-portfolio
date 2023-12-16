@@ -168,6 +168,13 @@ nav{
     cursor: pointer;
   
 }
+
+.left-side > .btns > .icons > a{
+    color: #000;
+}
+.left-side > .btns > .icons > a:hover{
+    color: #f55207;
+}
 .intro-info{
     /* position: absolute;
     top: 47%;
