@@ -14,9 +14,9 @@ const HomeLeftside = () => {
         <div className="btns">
           <a href="#about">About me</a>
           <div className="icons">
-          <FaInstagram />
-          <FaLinkedinIn />
-          <FaGithub/>
+          <a href="https://www.instagram.com/vicky_zk58?igshid=YzVkODRmOTdmMw==" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+          <a href="https://www.linkedin.com/in/vignesh-b-213a84205/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
+          <a href="https://github.com/Vignesh2k0508" target="_blank" rel="noopener noreferrer"><FaGithub/></a>
           </div>
         </div>
       </div>
